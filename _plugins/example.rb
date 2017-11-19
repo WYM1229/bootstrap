@@ -6,7 +6,7 @@ module Jekyll
       # The regular expression syntax checker. Start with the language specifier.
       # Follow that by zero or more space separated options that take one of three
       # forms: name, name=value, or name="<quoted list>"
-      #
+      # something need doing
       # <quoted list> is a space-separated list of numbers
       SYNTAX = /^([a-zA-Z0-9.+#-]+)((\s+\w+(=((\w|[0-9_-])+|"([0-9]+\s)*[0-9]+"))?)*)$/
 
